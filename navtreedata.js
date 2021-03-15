@@ -42,16 +42,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"group__appearance.html#ga2fcd956e0a0f733dc438c78f16502c36",
-"group__creature.html#ga4888c788f124ca985ba585677cdeaad8",
-"group__data__array__contains.html#ga493acc090215c2e7965f5a7f1b8a54de",
-"group__item.html#ga4fddf862386c3c71adf2bea037b239f7",
-"group__player.html#ga06dd36bd9ca9a01ac94b88357f2253d5",
-"group__race.html#gaa582f61c2877b0d4f74baf31521986d5",
-"group__util.html#ga30d0f9f68ff0ab060db725dec16e609a",
+"group__admin.html#gacb21ba2dd9de2caeafb83de04d79d857",
+"group__creature.html#ga161c4a1c39d2293d77d00ef708663650",
+"group__creature.html#gac87bd2be51450dda46576ebd3282153e",
+"group__dialog.html#ga02897365405b702936fb2e2491c3dc70",
+"group__feat.html#ga2330652ba535628c66ddf6b81f0dc726",
+"group__object.html#ga4a898fa34997eadf515e390daabc42e1",
+"group__player.html#ga94fef51c2bc9006b20e0323c67a08dbe",
+"group__skillranks.html#autotoc_md411",
+"group__util.html#gab1478de40af08e03284db6fe313f319c",
 "nwnx__redis_8nss.html#a37208feb836df8082fc4cf84b2aa0563",
 "nwnx__redis__short_8nss.html#a52a022c06f0b4fad43e92e43a88638f8",
-"structNWNX__EffectUnpacked.html#a332fd2e3db2012dc15d2fff35b88332e"
+"structNWNX__Damage__DamageEventData.html#a77eaede57af8ca3102bce42bd1659406"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
