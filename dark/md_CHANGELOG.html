@@ -121,11 +121,14 @@ New Plugins</h4>
 New NWScript Functions</h4>
 <ul>
 <li>Object: GetLastSpellInstant()</li>
+<li>Creature: {Get|Set}MaxSellToStorePriceOverride()</li>
+<li>Creature: {Get|Set}AbilityIncreaseByLevel()</li>
 </ul>
 <h2><a class="anchor" id="autotoc_md14"></a>
 Changed</h2>
 <ul>
 <li>Creature: Added an argument for passing a class package to <code><a class="el" href="group__creature.html#gad9c359948d6fca590e670986a7ed083d" title="Add levels of class to the creature, bypassing all validation.">NWNX_Creature_LevelUp()</a></code></li>
+<li>Player: Added arguments for passing transform data (scale, translation, rotation) to <code><a class="el" href="group__player.html#ga7dbffb81ef377eb430f50011b675573d" title="Plays the VFX at the target position in current area for the given player only.">NWNX_Player_ShowVisualEffect()</a></code> and <code><a class="el" href="group__player.html#ga9c984ffe634a7d8d57464c758f6cc6aa" title="Apply visualeffect to target that only player can see.">NWNX_Player_ApplyInstantVisualEffectToObject()</a></code></li>
 </ul>
 <h2><a class="anchor" id="autotoc_md15"></a>
 Deprecated</h2>
@@ -140,7 +143,7 @@ Removed</h2>
 <h2><a class="anchor" id="autotoc_md17"></a>
 Fixed</h2>
 <ul>
-<li>N/A</li>
+<li>Experimental: PlayerHitpointsAsPercentage: added the new argument nMessageLimit to SendServerToPlayerGameObjUpdate hook</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md18"></a>
 8193.35.40</h1>
@@ -1522,7 +1525,7 @@ Fixed</h2>
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
 				<li class="footer">
-					Generated on Mon May 29 2023 02:47:18 for NWNX:EE by <a href="http://www.doxygen.org/index.html">
+					Generated on Wed Jun 28 2023 02:09:57 for NWNX:EE by <a href="http://www.doxygen.org/index.html">
 					<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17.
 					<a href="../">Light version</a>
 				</li>
